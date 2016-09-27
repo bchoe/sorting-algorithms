@@ -1,14 +1,14 @@
 const chai =require('chai');
 const expect = chai.expect;
-const mergeFunc = require('../merge.js');
+const mergeDivide = require('../merge.js');
 
-describe('mergeFunc', () =>{
+describe('mergeDivide', () =>{
 
   it('should be a function', () => {
-    expect(mergeFunc).to.be.a('function');
+    expect(mergeDivide).to.be.a('function');
   });
 
-   it('should bubble sort a number', () =>{
+  /* it('should merge sort a number', () =>{
     expect(mergeFunc([5,1,4,2,6,9,8])).to.deep.equal([1,2,4,5,6,8,9]);
-  });
+  });*/
 });
